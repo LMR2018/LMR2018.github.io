@@ -1,1 +1,238 @@
-我的第一个个人GitHub网站
+{% load static %}
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>dydata</title>
+  <link rel="stylesheet" href="{% static 'css/webfont.css' %}" tppabs="https://www.dydata.io/assets/font/webfont.css">
+  <link rel="stylesheet" href="{% static 'css/home.css' %}" tppabs="https://www.dydata.io/home.css">
+</head>
+
+
+<body id="particles-js">
+  <!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="javascript:if(confirm('http://browsehappy.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://browsehappy.com/'" tppabs="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+
+  <div class="home-page-bg">
+    <header>
+      <ul class="login">
+
+{#        <li>#}
+{#          <a href="/sign/login">直接登录</a>#}
+{#        </li>#}
+{#        <li class="active">#}
+{#          <a href="/sign/register">现在注册</a>#}
+{#        </li>#}
+{#        <li class="user-info">#}
+{#          <img class="user-ico" />#}
+{#          <span class="user-name"></span>#}
+{#        </li>#}
+{#      </ul>#}
+
+    </header>
+
+
+
+    <div class="main">
+      <div class="main-content">
+        <div class="main-img">
+        </div>
+
+
+
+        <div class="content">
+          <div class="toBeta">
+{#            <div class="button">#}
+{#                用户名：<input type="text" id="u" placeholder="请输入常用手机号/邮箱">#}
+{#            </div><br>#}
+{#                          <div class="button">#}
+{#                密码：<input type="password" id="p" placeholder="请输入密码">#}
+{#            </div><br>#}
+{#                          <div class="button">#}
+{#                <input type="button" id="btn" value="登录">#}
+{#            </div>#}
+          </div>
+
+          <div class="back">
+              <div class="button">
+                <a href="http://127.0.0.1:8070/admin" tppabs="https://www.dydata.io/article" target="_blank">
+                登录</a>
+              </div>
+              <br>
+              <div class="button">
+{#          <ul class="login">#}
+
+{#        <li>#}
+{#          <a href="/sign/login">直接登录</a>#}
+{#        </li>#}
+{#         <li class="active">#}
+{#          <a href="/sign/register">现在登录</a>#}
+{#        </li>          <br>#}
+{#        <li class="active">#}
+{#          <a href="/sign/register">现在注册</a>#}
+{#        </li>#}
+{#      </ul>#}
+{#        </div>#}
+{#            密码：<input type="password" id="p">#}
+{#                <div>#}
+              <a href="http://127.0.0.1:8070/admin" tppabs="https://www.dydata.io/article" target="_blank">
+                注册</a>
+{#            </div>#}
+
+{#        </div>#}
+      </div>
+
+    </div>
+
+  </div>
+  <script src="{% static 'js/jquery.min-1.js' %}" tppabs="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+  <script src="{% static 'js/particles.min.js' %}" tppabs="https://cdn.max-c.com/js/particles.min.js"></script>
+  <script src="{% static 'js/home.js' %}" tppabs="https://www.dydata.io/home.js"></script>
+  <script>
+    particlesJS('particles-js',
+      {
+        "particles": {
+          "number": {
+            "value": 80,
+            "density": {
+              "enable": true,
+              "value_area": 800
+            }
+          },
+          "color": {
+            "value": "#ffffff"
+          },
+          "shape": {
+            "type": "polygon",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            },
+            "polygon": {
+              "nb_sides": 5
+            },
+            "image": {
+              "src": "https://www.dydata.io/img/github.svg",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 1,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 1,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "repulse"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 400,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 100,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": false
+      }
+
+    );
+  </script>
+
+  <script type='text/javascript'>
+    var _vds = _vds || [];
+    window._vds = _vds;
+    (function () {
+      _vds.push(['setAccountId', 'af2c4bdc9171cc96']);
+      (function () {
+        var vds = document.createElement('script');
+        vds.type = 'text/javascript';
+        vds.async = true;
+        vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(vds, s);
+      })();
+    })();
+  </script>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "hm.js-ea3d567ad66d89d77e372bdac5622926"/*tpa=https://hm.baidu.com/hm.js?ea3d567ad66d89d77e372bdac5622926*/;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</body>
+
+</html>
+
