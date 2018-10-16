@@ -1,39 +1,23 @@
-## Welcome to GitHub Pages
+# Online-cv (Panel CV style win8)
 
-You can use the [editor on GitHub](https://github.com/LMR2018/LMR2018.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This theme is collected from [cssmoban](http://www.cssmoban.com/) and modified by [Locky](https://github.com/junlulocky)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I have made this into a Jekyll Theme. Demo: [https://jekyller.github.io/online-cv](https://jekyller.github.io/online-cv)
 
-### Markdown
+The theme would look like this 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
+![Demo](/demo/demo.png)
 
 
+# Installation
 
-- Bulleted
-- List
+- Fork the repository
+- Go to settings and set Github Pages source as master.
+- Your new site should be ready at https://username.github.io/online-cv/
 
-1. Numbered
-2. List
+Check out for more themes: [Jekyll Themes](http://jekylltheme.org)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+# Author
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LMR2018/LMR2018.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [Locky](https://github.com/junlulocky)
